@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="scripts.js/controllerContact.js"></script>
+  </head>
+  <body>
+    <div class="flex-column">
+      <header class="header flex__row header__home" >
+        <div class="left__nav flex__row">
+          <div class="logo">
+            <img
+              class="logo__img"
+              width="10rem"
+              height="10rem"
+              src="images/image.jpg"
+              alt=""
+            />
+          </div>
+          <div class="company__name">Kaliska</div>
+        </div>
+        <div class="right__nav flex__row">
+          <a href="index.html" class="nav__links">Home</a>
+            <a href="about.html" class="nav__links">About</a
+            ><a href="services.html" class="nav__links">Services</a>
+            <a href="blog.html" class="nav__links">Blog</a>
+            <a href="contact.html" class="nav__links">Contact</a>
+            <a href="portfolio.html" class="nav__links">Portfolio</a>
+          <button class="nav__btn_signup btn">Sign up</button>
+        </div>
+        <div class="menu__smaller flex">
+          <span translate="ctl + K" class="humberger__menu">
+            <ion-icon name="menu-outline"></ion-icon>
+          </span>
+          <button class="nav__btn_signup btn">Sign up</button>
+        </div>
+      </header>
+    </div>
+    <div class="centre hidden">
+      <div class="links__smaller_screens flex__row">
+        <div class="nav__links_smaller flex-column">
+          <a href="index.html" class="nav__links">Home</a>
+          <a href="about.html" class="nav__links">About</a
+          ><a href="services.html" class="nav__links">Services</a>
+          <a href="blog.html" class="nav__links">Blog</a>
+          <a href="contact.html" class="nav__links">Contact</a>
+          <a href="portfolio.html" class="nav__links">Portfolio</a>
+        </div>
+      </div>
+    </div>
+    <div class="overlay__links hidden"></div>
+    <div class="about__heading_cont fixed__header__sections" id="section__hero__abaout">
+      <h1 class="about__heading media__query">Contact Us</h1>
+    </div>
+    <section class="special__services grid__column--300 contact__section">
+      <div class="special__texts contact__texts flex__column">
+        <div>
+          <h2 class="special__heading">Contact Us</h2>
+        </div>
+
+        <h2 class="grow__life_heading services__heading_main">
+          Please Get In Touch
+        </h2>
+        <p
+          class="grow__life_text paragraph__services special__para media__query contact__para_text"
+        >
+          Embrace the journey, for within its twists and turns lie the beauty of
+          discovery.
+        </p>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <div class="user__input grid__column--300">
+            <input type="hidden" name="access_key" value="9a91cbfb-9532-4236-a4a9-9f35e9b08141">
+            <div class="flex-column">
+              <input
+                type="text"
+                placeholder="Your name*"
+                class="username__input input__contact" name="Full name"
+                required
+              />
+            </div>
+            <div class="flex-column">
+              <input
+                type="email"
+                placeholder="Your email*"
+                class="email__input input__contact" name="Email"
+                required
+              />
+            </div>
+          </div>
+          <div class="flex-column">
+            <textarea placeholder="Enter your message..." name="Message" class="textarea">
+            </textarea>
+          </div>
+          <input type="submit" class="input__submit" value="Send" />
+        </form>
+      </div>
+      <div class="">
+        <img src="images/Mask-Group-422@2x.jpg" alt="" class="special__image" />
+      </div>
+    </section>
+    <section
+      class="about__contact services__contact location__contact media__query"
+    ></section>
+    <div class="grid__column--300 location">
+      <div class="contact__card">
+        <div>
+          <ion-icon
+            name="mail-outline"
+            class="contact__location__icon"
+          ></ion-icon>
+        </div>
+        <h2 class="email__label">Email</h2>
+        <span class="email__label_location">rayvonmathiu@gmail.com</span>
+        <span class="email__label_location">rayvonmathiu@gmail.com</span>
+      </div>
+      <div class="contact__card">
+        <div>
+          <ion-icon
+            name="call-outline"
+            class="contact__location__icon"
+          ></ion-icon>
+        </div>
+        <h2 class="email__label">Call</h2>
+        <span class="email__label_location">0748081299</span>
+        <span class="email__label_location">0740206686</span>
+      </div>
+      <div class="contact__card">
+        <div>
+          <ion-icon
+            name="location-outline"
+            class="contact__location__icon"
+          ></ion-icon>
+        </div>
+        <h2 class="email__label">Address</h2>
+        <span class="email__label_location">Maua Town 4401 Waldeck Street</span>
+
+        <span class="email__label_location">Meru, TX 76051</span>
+      </div>
+    </div>
+    <footer class="footer footer__js">
+      <div class="section__footer section">
+        <div class="call_to_action flex__row">
+          <div class="flex__column call_to_action-text">
+            <h1 class="call_to_action-heading">We Offer Awesome Services</h1>
+            <p class="call_to_action-para">
+              Reach to us and greater we all shall become
+            </p>
+          </div>
+          <!-- <form action="#" class="flex__row form">
+            <div class="flex__column email">
+              <input
+                type="email"
+                placeholder="Entre Yor Email Address"
+                class="input__email"
+              />
+            </div>
+            <input
+              type="submit"
+              name=""
+              value="Subscribe"
+              class="btn_try services__btn subscribe"
+            />
+          </form> -->
+        </div>
+        <div class="footer__main">
+          <div class="flex__row footer__lower">
+            <div class="footer__logo_col">
+              <div class="left__nav flex__row">
+                <div class="logo">
+                  <img
+                    class="logo__img"
+                    width="10rem"
+                    height="10rem"
+                    src="images/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="company__name">Kaliska</div>
+              </div>
+              <div class="footer__para">
+                <p class="hero__main_text-para">
+                  Kalisk Community aiming at 
+                  tecknological satisfaction
+                </p>
+              </div>
+            </div>
+            <div class="footer__links__cont">
+              <h3 class="footer__quick__Links--heading">Quick Links</h3>
+              <ul class="footer__quick__Links">
+                <li><a href="" class="quick__Links">Contact</a></li>
+                <li><a href="" class="quick__Links">About</a></li>
+                <li><a href="" class="quick__Links">Blogs</a></li>
+                <li><a href="" class="quick__Links">Testimonial</a></li>
+                <li><a href="" class="quick__Links">Porfolio</a></li>
+              </ul>
+            </div>
+            <div class="centre__resources footer__links__cont">
+              <h3 class="footer__quick__Links--heading">Resources</h3>
+              <ul class="footer__quick__Links">
+                <li><a href="" class="quick__Links">Art Design</a></li>
+                <li><a href="" class="quick__Links">Computer</a></li>
+                <li><a href="" class="quick__Links">It News</a></li>
+                <li><a href="" class="quick__Links">Networking</a></li>
+                <li><a href="" class="quick__Links">Web security</a></li>
+              </ul>
+            </div>
+            <div class="centre__links footer__links__cont">
+              <h3 class="footer__quick__Links--heading">Contact</h3>
+              <div class="quick__Links">
+                <span class="address">Address</span>
+                <span class="call_us_on">Rayvon maua Street 20002</span>
+              </div>
+              <div class="flex__column call_us_on">
+                <span class="address">Phone:</span>
+                <span class="quick__Links">0799037330</span>
+
+                <p>
+                  <span class="address">Email:</span>
+                  <span class="quick__Links">rayvonmathiu@gmail.com</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex__row footer__bottom">
+            
+            <div class="media_icons flex__row">
+              <div>
+                <a href="#"
+                  ><img
+                    src="images/twitter_3670151.png"
+                    alt=""
+                    class="icon_images"
+                /></a>
+              </div>
+              <div>
+                <a href="#"
+                  ><img
+                    src="images/instagram_4494488.png"
+                    alt=""
+                    class="icon_images"
+                /></a>
+              </div>
+              <div>
+                <a href="#"
+                  ><img
+                    src="images/facebook_3670203.png"
+                    alt=""
+                    class="icon_images"
+                /></a>
+              </div>
+              <div>
+                <a href="#"
+                  ><img
+                    src="images/telegram_2111646.png"
+                    alt=""
+                    class="icon_images"
+                /></a>
+              </div>
+              <div>
+                <a href="#"
+                  ><img
+                    src="images/mail_9068642.png"
+                    alt=""
+                    class="icon_images"
+                /></a>
+              </div>
+            </div>
+            <div class="copy_rights">
+              © 2024 Rayvon Mathiu. All Rights Reserved.
+            </div>
+          </div>
+        </div>
+
+<div class="scroll__top scroll__icon transform">
+      <a href="#section__hero__abaout"><ion-icon name="arrow-up-outline" class="arrow__up"></ion-icon></a>
+      
+
+    </div>      </footer>
+    
+  </body>
+</html>

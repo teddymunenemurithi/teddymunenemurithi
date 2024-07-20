@@ -1,0 +1,48 @@
+{
+  "projects": [
+    {
+      "name": "Design",
+      "id": 101,
+      "url": "images/latest1.jpg"
+    },
+    {
+      "name": "E-commerce",
+      "id": 102,
+      "url": "images/latest-2.jpg"
+    },
+    {
+      "name": "Statistics",
+      "id": 103,
+      "url": "images/latest-3.jpg"
+    },
+    {
+      "name": "Data Security",
+      "id": 103,
+      "url": "images/latest-4.jpg"
+    },
+    {
+      "name": "Optimization",
+      "id": 103,
+      "url": "images/latest--5.jpg"
+    }
+  ],
+  "Testimonials":[
+    {
+      "name": "Andres gomez",
+      "id": 102,
+      "url": "images/testimonial.jpg"
+    },
+    {
+      "name": "Phoebe naima",
+      "id": 102,
+      "url": "images/testimonial2.jpg"
+    },
+    {
+      "name": "Stancy melly",
+      "id": 102,
+      "url": "images/testimonial3.jpg"
+    }
+  ]
+
+ 
+}

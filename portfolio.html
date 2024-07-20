@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+   <script type="module" src="scripts.js/controllerPortfolio.js"></script>
+  </head>
+  <body>
+    <div class="flex-column">
+      <header class="header flex__row header__home ">
+        <div class="left__nav flex__row">
+          <div class="logo">
+            <img
+              class="logo__img"
+              width="10rem"
+              height="10rem"
+              src="images/image.jpg"
+              alt=""
+            />
+          </div>
+          <div class="company__name">Kaliska</div>
+        </div>
+        <div class="right__nav flex__row">
+          <a href="index.html" class="nav__links">Home</a>
+          <a href="about.html" class="nav__links">About</a
+          ><a href="services.html" class="nav__links">Services</a>
+          <a href="blog.html" class="nav__links">Blog</a>
+          <a href="contact.html" class="nav__links">Contact</a>
+          <a href="portfolio.html" class="nav__links">Portfolio</a>
+          <button class="nav__btn_signup btn">Sign up</button>
+        </div>
+        <div class="menu__smaller flex">
+          <span class="humberger__menu">
+            <ion-icon name="menu-outline"></ion-icon>
+          </span>
+          <button class="nav__btn_signup btn">Sign up</button>
+        </div>
+      </header>
+    </div>
+    <div class="centre hidden">
+      <div class="links__smaller_screens flex__row">
+        <div class="nav__links_smaller flex-column">
+          <a href="index.html" class="nav__links">Home</a>
+          <a href="about.html" class="nav__links">About</a
+          ><a href="services.html" class="nav__links">Services</a>
+          <a href="blog.html" class="nav__links">Blog</a>
+          <a href="contact.html" class="nav__links">Contact</a>
+          <a href="portfolio.html" class="nav__links">Portfolio</a>
+        </div>
+      </div>
+    </div>
+    <div class="overlay__links hidden"></div>
+    <div class="about__heading_cont fixed__header__sections">
+      <h1 class="about__heading media__query" id="projects">Projects</h1>
+    </div>
+    <section class="services__main section__hero" id="contact__hero">
+      <div class="grid__column--300">
+        <div class="services__content flex-column section">
+          <div class="services__showcase grid__column showcase-1" data-id="1">
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/austin-distel-744oGeqpxPQ-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Bankist</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+
+                  <a
+                    href="https://bankist-rayvon.netlify.app"
+                    class="services__icon_view-btn btn__view"
+                    ><ion-icon
+                      name="chevron-forward-outline"
+                      class="services__icon_view"
+                    ></ion-icon
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/austin-distel-744oGeqpxPQ-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Restaurant</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+
+                  <a
+                    href="https://forkify-rayvon.netlify.app"
+                    class="services__icon_view-btn btn__view"
+                    ><ion-icon
+                      name="chevron-forward-outline"
+                      class="services__icon_view"
+                    ></ion-icon
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/austin-distel-744oGeqpxPQ-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Personal portfolio</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+
+                  <a
+                    href="https://rayvon-my-portfolio.netlify.app"
+                    class="services__icon_view-btn btn__view"
+                    ><ion-icon
+                      name="chevron-forward-outline"
+                      class="services__icon_view"
+                    ></ion-icon
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/austin-distel-744oGeqpxPQ-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Web Security</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+
+                  <a
+                    href="https://bankist-rayvon.netlify.app"
+                    class="services__icon_view-btn btn__view"
+                    ><ion-icon
+                      name="chevron-forward-outline"
+                      class="services__icon_view"
+                    ></ion-icon
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/austin-distel-744oGeqpxPQ-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Web Application</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+
+                  <a
+                    href="https://bankist-rayvon.netlify.app"
+                    class="services__icon_view-btn btn__view"
+                    ><ion-icon
+                      name="chevron-forward-outline"
+                      class="services__icon_view"
+                    ></ion-icon
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/austin-distel-744oGeqpxPQ-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Web Application</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+
+                  <a
+                    href="https://bankist-rayvon.netlify.app"
+                    class="services__icon_view-btn btn__view"
+                    ><ion-icon
+                      name="chevron-forward-outline"
+                      class="services__icon_view"
+                    ></ion-icon
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Web Application</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+                  <button class="services__icon_view-btn btn__view">
+                    <ion-icon
+                      name="chevron-forward-outline"
+                      class="services__icon_view"
+                    ></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/towfiqu-barbhuiya-FnA5pAzqhMM-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Web Application</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+                </div>
+                <button class="services__icon_view-btn btn__view">
+                  <ion-icon
+                    name="chevron-forward-outline"
+                    class="services__icon_view"
+                  ></ion-icon>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="services__showcase grid__column showcase-2 hidden"
+            data-id="2"
+          >
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/austin-distel-744oGeqpxPQ-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Web Application</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+
+                  <button class="services__icon_view-btn btn__view">
+                    <ion-icon
+                      name="chevron-forward-outline"
+                      class="services__icon_view"
+                    ></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Web Application</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+                  <button class="services__icon_view-btn btn__view">
+                    <ion-icon
+                      name="chevron-forward-outline"
+                      class="services__icon_view"
+                    ></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/towfiqu-barbhuiya-FnA5pAzqhMM-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Web Application</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+                </div>
+                <button class="services__icon_view-btn btn__view">
+                  <ion-icon
+                    name="chevron-forward-outline"
+                    class="services__icon_view"
+                  ></ion-icon>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="services__showcase grid__column showcase-3 hidden"
+            data-id="3"
+          >
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/austin-distel-744oGeqpxPQ-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Web Application</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+
+                  <button class="services__icon_view-btn btn__view">
+                    <ion-icon
+                      name="chevron-forward-outline"
+                      class="services__icon_view"
+                    ></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Web Application</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+                  <button class="services__icon_view-btn btn__view">
+                    <ion-icon
+                      name="chevron-forward-outline"
+                      class="services__icon_view"
+                    ></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/towfiqu-barbhuiya-FnA5pAzqhMM-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Web Application</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+                </div>
+                <button class="services__icon_view-btn btn__view">
+                  <ion-icon
+                    name="chevron-forward-outline"
+                    class="services__icon_view"
+                  ></ion-icon>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="services__showcase grid__column showcase-4 hidden"
+            data-id="4"
+          >
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Security Data</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+
+                  <button class="services__icon_view-btn btn__view">
+                    <ion-icon
+                      name="chevron-forward-outline"
+                      class="services__icon_view"
+                    ></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Web Application</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+                  <button class="services__icon_view-btn btn__view">
+                    <ion-icon
+                      name="chevron-forward-outline"
+                      class="services__icon_view"
+                    ></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/towfiqu-barbhuiya-FnA5pAzqhMM-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Web Application</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+                </div>
+                <button class="services__icon_view-btn btn__view">
+                  <ion-icon
+                    name="chevron-forward-outline"
+                    class="services__icon_view"
+                  ></ion-icon>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- hide services content for media at 850 -->
+          <div class="services__showcase grid__column service__showcase hidden">
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/austin-distel-744oGeqpxPQ-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Web Application</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+
+                  <button
+                    class="btns_services btn_try services__btn services__btn_active"
+                  >
+                    Web Application
+                  </button>
+                  <button class="services__icon_view-btn btn__view">
+                    <ion-icon
+                      name="chevron-forward-outline"
+                      class="services__icon_view"
+                    ></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Web Design</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+                  <button
+                    class="btns_services btn_try services__btn services__btn_active"
+                  >
+                    Web Design
+                  </button>
+                  <button class="services__icon_view-btn btn__view">
+                    <ion-icon
+                      name="chevron-forward-outline"
+                      class="services__icon_view"
+                    ></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Ceo Optimization</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+                  <button
+                    class="btns_services btn_try services__btn services__btn_active"
+                  >
+                    Ceo optimization
+                  </button>
+                  <button class="services__icon_view-btn btn__view">
+                    <ion-icon
+                      name="chevron-forward-outline"
+                      class="services__icon_view"
+                    ></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="services__full_content">
+              <div class="services__content_overview flex__column">
+                <div class="services__image">
+                  <img
+                    class="service__image"
+                    src="images/towfiqu-barbhuiya-FnA5pAzqhMM-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="services__content_description">
+                  <h3 class="sevice__name">Data Security</h3>
+                  <div>
+                    <p class="sevices__text">
+                      When, while the lovely valley teems with vapour around
+                      meand the meridian sunstrikes the upper
+                    </p>
+                  </div>
+                </div>
+                <button
+                  class="btns_services btn_try services__btn services__btn_active"
+                >
+                  Data Security
+                </button>
+                <button class="services__icon_view-btn btn__view">
+                  <ion-icon
+                    name="chevron-forward-outline"
+                    class="services__icon_view"
+                  ></ion-icon>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- end content -->
+          <div class="portfolio__btn_view flex__row">
+            <a href="#" class="btn_try btn__explore btn__view link"
+              >Load more</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+     <footer class="footer footer__js">
+      <div class="section__footer section">
+        <div class="call_to_action flex__row">
+          <div class="flex__column call_to_action-text">
+            <h1 class="call_to_action-heading">We Offer Awesome Services</h1>
+            <p class="call_to_action-para">
+              Reach to us and greater we all shall become
+            </p>
+          </div>
+          <!-- <form action="#" class="flex__row form">
+            <div class="flex__column email">
+              <input
+                type="email"
+                placeholder="Entre Yor Email Address"
+                class="input__email"
+              />
+            </div>
+            <input
+              type="submit"
+              name=""
+              value="Subscribe"
+              class="btn_try services__btn subscribe"
+            />
+          </form> -->
+        </div>
+        <div class="footer__main">
+          <div class="flex__row footer__lower">
+            <div class="footer__logo_col">
+              <div class="left__nav flex__row">
+                <div class="logo">
+                  <img
+                    class="logo__img"
+                    width="10rem"
+                    height="10rem"
+                    src="images/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="company__name">Kaliska</div>
+              </div>
+              <div class="footer__para">
+                <p class="hero__main_text-para">
+                  Kalisk Community aiming at 
+                  tecknological satisfaction
+                </p>
+              </div>
+            </div>
+            <div class="footer__links__cont">
+              <h3 class="footer__quick__Links--heading">Quick Links</h3>
+              <ul class="footer__quick__Links">
+                <li><a href="" class="quick__Links">Contact</a></li>
+                <li><a href="" class="quick__Links">About</a></li>
+                <li><a href="" class="quick__Links">Blogs</a></li>
+                <li><a href="" class="quick__Links">Testimonial</a></li>
+                <li><a href="" class="quick__Links">Porfolio</a></li>
+              </ul>
+            </div>
+            <div class="centre__resources footer__links__cont">
+              <h3 class="footer__quick__Links--heading">Resources</h3>
+              <ul class="footer__quick__Links">
+                <li><a href="" class="quick__Links">Art Design</a></li>
+                <li><a href="" class="quick__Links">Computer</a></li>
+                <li><a href="" class="quick__Links">It News</a></li>
+                <li><a href="" class="quick__Links">Networking</a></li>
+                <li><a href="" class="quick__Links">Web security</a></li>
+              </ul>
+            </div>
+            <div class="centre__links footer__links__cont">
+              <h3 class="footer__quick__Links--heading">Contact</h3>
+              <div class="quick__Links">
+                <span class="address">Address</span>
+                <span class="call_us_on">rayvon maua Street 20002</span>
+              </div>
+              <div class="flex__column call_us_on">
+                <span class="address">Phone:</span>
+                <span class="quick__Links">0799033330</span>
+
+                <p>
+                  <span class="address">Email:</span>
+                  <span class="quick__Links">rayvonmathiu@gmail.com</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex__row footer__bottom">
+            
+            <div class="media_icons flex__row">
+              <div>
+                <a href="#"
+                  ><img
+                    src="images/twitter_3670151.png"
+                    alt=""
+                    class="icon_images"
+                /></a>
+              </div>
+              <div>
+                <a href="#"
+                  ><img
+                    src="images/instagram_4494488.png"
+                    alt=""
+                    class="icon_images"
+                /></a>
+              </div>
+              <div>
+                <a href="#"
+                  ><img
+                    src="images/facebook_3670203.png"
+                    alt=""
+                    class="icon_images"
+                /></a>
+              </div>
+              <div>
+                <a href="#"
+                  ><img
+                    src="images/telegram_2111646.png"
+                    alt=""
+                    class="icon_images"
+                /></a>
+              </div>
+              <div>
+                <a href="#"
+                  ><img
+                    src="images/mail_9068642.png"
+                    alt=""
+                    class="icon_images"
+                /></a>
+              </div>
+            </div>
+            <div class="copy_rights">
+              © 2024 Rayvon Mathiu. All Rights Reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="scroll__top scroll__icon transform">
+      <a href="#projects"><ion-icon name="arrow-up-outline" class="arrow__up"></ion-icon></a>
+      
+
+    </div>
+  </body>
+</html>
